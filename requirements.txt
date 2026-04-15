@@ -1,0 +1,23 @@
+# Інтерфейс
+streamlit>=1.31.0
+
+# LLM
+llama-cpp-python>=0.2.90
+
+# Векторизація (основна — BGE-M3)
+FlagEmbedding>=1.2.0
+numpy>=1.26.0
+
+# Векторизація (legacy backend.py + setup.py)
+sentence-transformers>=2.7.0
+faiss-cpu>=1.7.4
+
+# Обробка документів (builder.py)
+pdfplumber>=0.10.3
+python-docx>=1.1.0
+beautifulsoup4>=4.12.3
+lxml>=5.0.0
+libzim>=3.2.0
+
+# Криптографія (security.py + keygen.py)
+cryptography>=42.0.0

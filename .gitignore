@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+
+# Моделі (великі бінарні файли — завантажуються окремо)
+models/*
+!models/.gitkeep
+
+# Скомпільовані збірки
+build/*
+!build/.gitkeep
+dist/
+*.spec.bak
+
+# Модулі бази знань (генеруються локально через builder.py)
+modules/*
+!modules/.gitkeep
+
+# Сирі вхідні матеріали (контент для індексації)
+modules-raw/*
+!modules-raw/.gitkeep
+
+# Криптографічні ключі
+keys/*
+!keys/.gitkeep
+
+# Архіви
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Локальна конфігурація
+config.local.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Тимчасові файли
+tmp/
+temp/
+*.tmp
