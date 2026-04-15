@@ -120,5 +120,3 @@ ark-system/
 | python-docx | Читання DOCX |
 | beautifulsoup4 + libzim | Читання ZIM (Wikipedia offline) |
 | cryptography | Підписи модулів Ed25519 |
-# ark-system
-# ark-system
